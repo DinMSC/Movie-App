@@ -1,0 +1,38 @@
+.movie-list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.single-show-item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+@media (min-width:768px) {
+    .single-show-item {
+        max-width: 50%;
+    }
+}
+
+@media (max-width:768px) {
+    .single-show-item {
+        max-width: 100%;
+    }
+}
+
+.single-show-item a {
+    display: block;
+    width: 100%;
+}
+
+.single-show-item img.cover-image {
+    width: 100%;
+    height: auto;
+}

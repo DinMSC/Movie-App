@@ -1,0 +1,22 @@
+.tabs {
+    padding: 20px 0;
+}
+
+.tabs button {
+    margin-right: 20px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input#search {
+    width: 100%;
+    max-width: 320px;
+    border: none;
+    border-radius: 30px;
+    padding: 20px 30px;
+    background: #ccc;
+    color: #000;
+    margin-bottom: 40px;
+}
